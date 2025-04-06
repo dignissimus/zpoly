@@ -1,10 +1,11 @@
 .{
-    .name = "zpoly_example",
+    .name = .zpoly_example,
+    .fingerprint = 0x80e48bd1d1600dac,
     .version = "0.0.1",
     .paths = .{""},
     .dependencies = .{
         .zpoly_zon_name = .{
-            .path = "../zpoly",
+            .path = "../",
         },
     },
 }
